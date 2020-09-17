@@ -9,21 +9,40 @@ li {
   padding: 0;
 }
 
-.weather-app {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 15px;
-  border-radius: 10px;
-  border: 2px solid;
-}
-
 p {
   text-align: center;
   padding: 15px;
 }
 
 h1 {
-  font-size: 20;
+  font-size: 40;
+  font-weight: 400;
   margin: 0 auto;
   padding: 0;
+  text-transform: uppercase;
+}
+
+.weather-app {
+  max-width: 60%;
+  max-height: max-content;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #bec8db;
+}
+
+body {
+  padding: 20px;
+  background-color: blanchedalmond;
+  background-repeat: no-repeat;
+}
+
+.temperature {
+  font-size: 40px;
+}
+
+.units {
+  position: relative;
+  left: -5px;
+  bottom: 20px;
 }

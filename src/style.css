@@ -23,20 +23,20 @@ h1 {
 }
 
 .weather-app {
-  max-width: 60%;
+  max-width: 500px;
   max-height: max-content;
   margin: 0 auto;
   padding: 15px;
   border-radius: 12px;
-  background-color: #bec8db;
+  background-color: #faf7f4;
 }
 
 body {
   padding: 20px;
-  background-color: blanchedalmond;
+  background-image: url(../background.jpg);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  background-size: cover;
+  widows: 100%;
 }
 
 .temperature {

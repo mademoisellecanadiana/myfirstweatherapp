@@ -36,7 +36,7 @@ body {
   background-image: url(../background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  widows: 100%;
+  width: 100%;
 }
 
 .temperature {

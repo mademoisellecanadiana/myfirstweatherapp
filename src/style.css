@@ -24,11 +24,13 @@ h1 {
 
 .weather-app {
   max-width: 500px;
-  max-height: max-content;
   margin: 0 auto;
-  padding: 15px;
-  border-radius: 12px;
-  background-color: #faf7f4;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: red;
+  background-color: #f8f6fa;
+  max-height: fit-content;
 }
 
 body {
@@ -36,7 +38,7 @@ body {
   background-image: url(../background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  text-align: center;
 }
 
 .temperature {

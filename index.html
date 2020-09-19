@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diana's Weather App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -17,20 +17,24 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1>CITY</h1>
+        <h1 id="city">
+        </h1>
         <ul>
-          <li>DAY AND TIME</li>
-          <li>DESCRIPTION</li>
+          <li class="day-time"> DAY AND TIME
+        </li>
+          <li class="weather-description" id="description">
+          </li>
         </ul>
         <div class="row">
           <div class="col-7">
           <img class="weather-image" src="sun.jpg" width="80" />  
-          <span class="temperature">12</span> <span class="units"> °C | °F </span>        </div>
+          <span class="temperature" id="temperature"></span> <span class="units"> °C | °F </span> </div>       
           <div class="col-4">
             <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 10</li>
-              <li>Wind: 2km/h</li>
+              <li> Humidity: <span id="humidity"> </span> %
+              </li>
+              <li>Wind: <span id="wind"></span>
+              </li>
             </ul>
           </div>
         </div>

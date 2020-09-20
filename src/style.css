@@ -34,9 +34,9 @@ h1 {
   border-style: solid;
   border-radius: 50px;
   border-color: rgb(20, 20, 20);
-  background-color: rgba(41, 40, 40, 0.753);
+  background-color: rgba(146, 141, 141, 0.8);
   max-height: fit-content;
-  color: white;
+  color: black;
 }
 
 body {
@@ -63,4 +63,9 @@ body {
 
 .date {
   text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 20px;
 }

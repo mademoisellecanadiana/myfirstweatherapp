@@ -78,5 +78,11 @@ p1 {
 .weather-forecast img {
   display: block;
   margin: 0 auto;
-  width: 30px;
+  width: 50px;
+}
+
+.weather-forecast p2 {
+  color: black;
+  font-weight: 600;
+  padding: 2px;
 }

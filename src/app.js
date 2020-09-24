@@ -60,16 +60,15 @@ function displayForecast(response) {
     forecast = response.data.list[index];
     forecastElement.innerHTML += `
   <div class="col-2">
-  <h3>
+  <p2>
   ${formatHours(forecast.dt * 1000)}
-  </h3>
+  </p2>
   <img 
       src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
       />
           <div class="weather-forecast-temperature"> 
-            <strong>${Math.round(
-              forecast.main.temp_max
-            )}°</strong> ${Math.round(forecast.main.temp_min)}°
+            ${Math.round(forecast.main.temp_max)}° <br> 
+            ${Math.round(forecast.main.temp_min)}°
           </div>
         </div>
         `;
